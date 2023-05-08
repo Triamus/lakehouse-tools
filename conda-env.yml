@@ -1,0 +1,9 @@
+name: lakehouse-tools
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.*
+  - pip 
+  - pip:
+    - "poetry>=1.4"
