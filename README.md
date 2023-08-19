@@ -31,12 +31,12 @@ lakehouse-tools is currently a random collection of functions and ideas targetin
 
 ## Setup
 
-Local import from root directory as `import lakehouse-tools as lt`.
+Local import from root directory as `import lakehouse_tools as lt`.
 
 Here's an example of how you can create a sample spark dataframe:
 
 ```python
-import lakehouse-tools as lt
+import lakehouse_tools as lt
 
 lt.create_sample_df(spark).show()
 
