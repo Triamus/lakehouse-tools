@@ -295,4 +295,7 @@ articles, blogs, books, videos, documentation, reference implementations (e.g. o
   - https://learn.microsoft.com/en-us/azure/databricks/delta/delta-column-mapping
 - aw: delta table file size distribution
 - aw: purge delta log files
-- 
+- aw: Create Spark Datatype Schema from String
+  - https://subhamkharwal.medium.com/pyspark-create-spark-datatype-schema-from-string-aac5c10cd736
+- aw: schema evolution with type-safe casting via merge + write(append)
+  - special attention to deeply nested structures

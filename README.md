@@ -26,17 +26,18 @@ lakehouse-tools is currently a random collection of functions and ideas targetin
   - CI/CD
     - GitHub Actions
     - packaging
+    - DevSecOps
 - python package best practices
 - docs best practices
 
 ## Setup
 
-Local import from root directory as `import lakehouse-tools as lt`.
+Local import from root directory as `import lakehouse_tools as lt`.
 
 Here's an example of how you can create a sample spark dataframe:
 
 ```python
-import lakehouse-tools as lt
+import lakehouse_tools as lt
 
 lt.create_sample_df(spark).show()
 
@@ -48,3 +49,12 @@ lt.create_sample_df(spark).show()
 |          3|        c|     3|     3.0|      true|
 +-----------+---------+------+--------+----------+
 ```
+
+## Package inspiration and ideas
+
+- [mack: Delta Lake helper methods in PySpark](https://github.com/MrPowers/mack)
+- [levi: Delta Lake helper methods. No Spark dependency.](https://github.com/MrPowers/levi)
+- [discoverx: Scans the Databricks Lakehouse and provides semantic classification of columns, along with cross-table query based on class.](https://github.com/databrickslabs/discoverx)
+- [dbldatagen: The Databricks Labs synthetic data generator](https://github.com/databrickslabs/dbldatagen)
+- [pandera: A light-weight, flexible, and expressive statistical data testing library](https://github.com/unionai-oss/pandera)
+- [pandas on spark](https://github.com/apache/spark/blob/master/python/pyspark/pandas)
